@@ -70,19 +70,6 @@
           <button data-modal-open class="hero-button" type="button">
             Заказать услугу
           </button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis aut exercitationem obcaecati deleniti iste.
-                Repudiandae consequuntur veritatis, fugit repellat neque, ea
-                fugiat odit laboriosam est ducimus ipsam dolor hic amet!
-              </p>
-              <button data-modal-close class="hero-button" type="button">
-                Закрытие
-              </button>
-            </div>
-          </div>
         </div>
       </section>
       <section class="section">
@@ -531,6 +518,21 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <!-- <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis aut exercitationem obcaecati deleniti iste.
+                Repudiandae consequuntur veritatis, fugit repellat neque, ea
+                fugiat odit laboriosam est ducimus ipsam dolor hic amet!
+              </p> -->
+        <button data-modal-close class="modal-button" type="button">
+          <svg class="social-icon" style="width: 11px; height: 11px">
+            <use href="./images/icons.svg#close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
