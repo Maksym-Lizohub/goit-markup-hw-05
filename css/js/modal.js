@@ -1,4 +1,5 @@
 (() => {
+    const newLocal = "[data-modal-close]";
   const refs = {
     openModalBtn: document.querySelector("[data-modal-open]"),
     closeModalBtn: document.querySelector("[data-modal-close]"),
