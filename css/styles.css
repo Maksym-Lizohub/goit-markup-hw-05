@@ -342,6 +342,11 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.modal-button:hover,
+.modal-button:focus {
+  background-color: var(--primary-white-color);
+}
+
 .vision-list {
   display: flex;
   flex-wrap: wrap;
