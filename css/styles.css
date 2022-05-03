@@ -344,7 +344,7 @@ body {
 
 .modal-button:hover,
 .modal-button:focus {
-  background-color: var(--primary-white-color);
+  color: currentColor;
 }
 
 .vision-list {
